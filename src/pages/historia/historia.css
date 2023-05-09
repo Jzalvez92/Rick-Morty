@@ -1,0 +1,20 @@
+.historia {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+  }
+  
+  .encabezado {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .resumen {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+ img{
+    width: 100%;
+    height: auto;
+ }  

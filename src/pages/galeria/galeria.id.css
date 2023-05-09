@@ -1,0 +1,78 @@
+.carta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  height: 93vh;
+  background-image: url("https://images5.alphacoders.com/876/876590.png");
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.galeria-id {
+  width: 320px;
+  height: 480px;
+  background-color: #262C3A;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 4px 9px #fdfdfd(0, 0, 0, 0.7);
+}
+
+.galeria-id:before {
+  content:"";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -20px;
+  bottom: -85px;
+  border: 8px solid #8eceed;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px 0px#B5EDFC
+}
+
+.nombre {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px #0c0c0c;
+  color: #efefef;
+}
+
+.avatar {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  border: 8px solid #B6EEFD;
+}
+
+.situacion {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
+  text-shadow: 1px 1px #000;
+  color: #efefef;
+}
+
+.especie,
+.tipo{
+  text-align: center;
+  font-size: 25px;
+  margin-top: 0px;
+  text-shadow: 1px 1px #654040;
+  color: #fb0707;
+}
+
+.galeria-id:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 8px 16px #B6EEFD(39, 210, 9, 0.4);
+}
